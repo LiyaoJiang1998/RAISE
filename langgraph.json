@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "graph_RAISE": "./src/graph/graph_RAISE.py:graph_RAISE",
+    "graph_original": "./src/graph/graph_original.py:graph_original"
+  },
+  "env": ".env"
+}
