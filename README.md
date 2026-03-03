@@ -1,7 +1,7 @@
 # RAISE: Requirement-Adaptive Evolutionary Refinement for Training-Free Text-to-Image Alignment [CVPR 2026]
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)]()
+[![arXiv](https://img.shields.io/badge/arXiv-2603.00483-b31b1b.svg)](https://arxiv.org/abs/2603.00483)
 
 Official implementation of **RAISE** (**R**equirement-**A**daptive **S**elf-**I**mproving **E**volution), a training-free, requirement-driven evolutionary framework for adaptive text-to-image generation.
 
@@ -120,6 +120,16 @@ Prompt files are provided in `benchmarks/`:
 
 ## Bibtex Citation
 If you find our method and paper useful, we kindly ask that you cite our paper.
-You can also find the preprint on arXiv: TODO
+
+You can also find the preprint on [arXiv:2603.00483](https://arxiv.org/abs/2603.00483)
 
 ```bibtex
+@misc{jiang2026raise,
+    title={RAISE: Requirement-Adaptive Evolutionary Refinement for Training-Free Text-to-Image Alignment}, 
+    author={Liyao Jiang and Ruichen Chen and Chao Gao and Di Niu},
+    year={2026},
+    eprint={2603.00483},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2603.00483}, 
+}
