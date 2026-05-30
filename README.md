@@ -1,7 +1,9 @@
-# RAISE: Requirement-Adaptive Evolutionary Refinement for Training-Free Text-to-Image Alignment [CVPR 2026]
+# RAISE: Requirement-Adaptive Evolutionary Refinement for Training-Free Text-to-Image Alignment [[CVPR 2026]](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_RAISE_Requirement-Adaptive_Evolutionary_Refinement_for_Training-Free_Text-to-Image_Alignment_CVPR_2026_paper.html)
 
-
+[![Static Badge](https://img.shields.io/badge/CVPR-2026-blue)](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_RAISE_Requirement-Adaptive_Evolutionary_Refinement_for_Training-Free_Text-to-Image_Alignment_CVPR_2026_paper.html)
 [![arXiv](https://img.shields.io/badge/arXiv-2603.00483-b31b1b.svg)](https://arxiv.org/abs/2603.00483)
+
+[📰 Our Poster](docs/CVPR2026_RAISE_poster.pdf)
 
 Official implementation of **RAISE** (**R**equirement-**A**daptive **S**elf-**I**mproving **E**volution), a training-free, requirement-driven evolutionary framework for adaptive text-to-image generation.
 
@@ -119,17 +121,17 @@ Prompt files are provided in `benchmarks/`:
 - `benchmarks/geneval_evaluation_metadata.jsonl`
 
 ## Bibtex Citation
-If you find our method and paper useful, we kindly ask that you cite our paper.
+If you find our method and paper useful, we kindly ask that you cite our [CVPR 2026 paper](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_RAISE_Requirement-Adaptive_Evolutionary_Refinement_for_Training-Free_Text-to-Image_Alignment_CVPR_2026_paper.html).
 
 You can also find the preprint on [arXiv:2603.00483](https://arxiv.org/abs/2603.00483)
 
+
 ```bibtex
-@misc{jiang2026raise,
-    title={RAISE: Requirement-Adaptive Evolutionary Refinement for Training-Free Text-to-Image Alignment}, 
-    author={Liyao Jiang and Ruichen Chen and Chao Gao and Di Niu},
-    year={2026},
-    eprint={2603.00483},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    url={https://arxiv.org/abs/2603.00483}, 
+@InProceedings{Jiang_2026_CVPR,
+    author    = {Jiang, Liyao and Chen, Ruichen and Gao, Chao and Niu, Di},
+    title     = {RAISE: Requirement-Adaptive Evolutionary Refinement for Training-Free Text-to-Image Alignment},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {22038-22048}
 }
