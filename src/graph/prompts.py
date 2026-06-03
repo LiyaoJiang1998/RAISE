@@ -1,6 +1,8 @@
 """Default prompts used by the agent."""
 import json
 
+SYSTEM_PROMPT="" # not used
+
 AVOID_INFINITE_OUTPUT_PROMPT = '''Avoid generating infinite or repeating output. Do not output infinite repeated content or a long list.
 You should put the reasoning process in the reasoning output field, and follow the requirements and descriptions to answer each required output field with actual, meaningful content. 
 Make sure to carefully follow the requirements and descriptions for each output field. 
